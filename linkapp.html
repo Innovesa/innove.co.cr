@@ -142,19 +142,18 @@
           <div id="errormessage"></div>
           <form action="" method="post" role="form" class="contactForm">
 		  
-              <div class="form-group">
-			 
-			 <label for="state">Interés</label>
-			<select class="custom-select d-block w-100" id="state" required="">
-			      <option value="">Seleccione su interés</option>
-                  <option>Desarrollo Web</option>
-                  <option>Desarrollo Móvil</option>
-				  <option>LinKapp</option>
-				  <option>Proyectos</option>
-				  <option>Actualización Tecnológica</option>
-				  <option>Calidad de Software</option>
-				  <option>Otros</option>
-                </select>
+              <div class="form-group"> 
+			<label for="state">Interés</label>
+			<select name="interes" class="custom-select d-block w-100" id="state" required="">
+			      	<option value="">Seleccione su interés</option>
+				<option>Desarrollo Web</option>
+				<option>Desarrollo Móvil</option>
+				<option selected>LinKapp</option>
+				<option>Proyectos</option>
+				<option>Actualización Tecnológica</option>
+				<option>Calidad de Software</option>
+				<option>Otros</option>
+        		</select>
 				</div>
 				<div class="form-row">
 				<div class="form-group col-md-6">
@@ -239,16 +238,5 @@
   
    <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-  
-   <script src="js/bootstrap.min.js"></script>
-   <script src="js/plugins/pace/pace.min.js"></script>
-   <script src="js/inspinia.js"></script>
-   <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-   <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-  
-  <script src="js/jquery-3.1.1.min.js"></script>
-  
- 
-  
   </body>
 </html>

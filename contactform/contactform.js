@@ -91,8 +91,8 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
     $.ajax({
-      type: "POST",
-      url: "contactform/contactform.php",
+      type: "GET",
+      url: "php/email.php",
       data: str,
       success: function(msg) {
         // alert(msg);
