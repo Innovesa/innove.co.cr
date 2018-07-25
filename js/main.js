@@ -160,3 +160,15 @@ jQuery(document).ready(function( $ ) {
   });
 
 });
+
+$("form.mail").submit(function(e){
+
+     e.preventDefault();
+
+	$.ajax({
+	  url: "php/email.php",
+	  data:$("form.mail").serialize()
+	}).done(function(msj) { });
+
+
+ });
