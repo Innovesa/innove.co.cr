@@ -15,13 +15,9 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ,'Open Sans', sans-serif;
   font-size:13px;
 
-}
-h2#mod{
-	font-family: "Harabara";
-	text-align: center;
 }
 h3#modulo{
 	margin-top: 140px;
@@ -39,9 +35,10 @@ h3#modulo{
 .link img{
 	width: auto;
 	height:auto;
-	margin-left: 300px;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 30px
 }
 
 a {
@@ -66,11 +63,24 @@ p#linkapp{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Harabara",'Open Sans', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
+#modulo{
+	
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    color: #ffffff;
+	font-family: "Harabara";
+	font-size: 50px;
+    text-align: center;
+    padding: 35px 25px 25px 25px;
+}
+    
 
 
 /* Back to top button */
